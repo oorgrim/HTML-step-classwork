@@ -1,0 +1,30 @@
+.flex {
+    display: flex;
+    /* flex-direction: column-reverse; */ /*направление*/
+    /* justify-content: flex-end; */
+    justify-content: space-between;
+    /* align-items: flex-end; */
+    /* align-items: baseline; */
+    /* align-items: stretch; */
+    align-items: center;
+    width: 100vw;
+    height: 450px;
+    background-color: aqua ;
+    /* flex-wrap: wrap; */
+    /* flex-flow: column nowrap; */
+    /* flex-flow: row wrap; */
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.flex__item {
+    width: 300px;
+    height: 300px ;
+    border: 3px solid;
+    margin: 0 40px;
+}
+
+
+/* .box1 {
+    align-self: flex-end;
+} */

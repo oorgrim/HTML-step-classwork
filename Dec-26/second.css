@@ -1,0 +1,55 @@
+body {
+    background-image: url(mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    align-items: center;
+}
+
+#fon {
+    width: 90vw;  
+    height: AUTO;
+    background-color: aliceblue;
+    /* opacity: 40%; */
+    margin: 0 auto;
+    
+}
+
+.menu_p {
+    display: flex;
+    justify-content: flex-end;
+    /* flex-flow: row wrap;
+    flex-direction: row;     */
+    background-color : rgb(236, 236, 236);
+}
+p {
+    margin-right: 100px;
+    
+}
+
+
+#desc_p {
+    line-height: 25px;
+}
+
+.cards {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.card {
+    background-color: rgb(163, 241, 255) ;
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+#main_h1, #desc_p, button {
+    margin-left: 70px;
+}

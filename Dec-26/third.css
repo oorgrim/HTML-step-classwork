@@ -1,0 +1,31 @@
+div {
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    animation-name: anim;
+    animation-duration: 5s;
+    animation-delay: 1s; /*задержка перед началом (к примеру, чтобы прогрузился сайт)*/
+    animation-iteration-count: infinite; /*повторы*/
+    animation-play-state: running; /*точка начала*/
+}
+@keyframes anim {
+    0% {
+        margin-left: 0;
+    }
+    25% {
+        margin-left: 750px;
+        background-color: aqua;
+    }
+    50% {
+        background-color: rgb(45, 182, 182);
+        
+    }
+    75% {
+        background-color: rgb(49, 138, 138);
+        
+    }
+    100% {
+        background-color: rgb(20, 55, 55);
+        
+    }
+}

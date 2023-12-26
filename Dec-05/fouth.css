@@ -1,0 +1,21 @@
+th, td {
+    border: 3px solid;  
+    padding: 15px;
+  }
+  table {
+      border-collapse: collapse;
+}
+#a, .b, .c {
+    padding: 40px;
+}
+#a {
+    background-color: aqua;
+    /* padding-top: 40px; */
+
+}
+.b {
+    background-color: rgb(255, 238, 190);   
+}
+.c {
+    background-color: rgb(100, 187, 112);
+}

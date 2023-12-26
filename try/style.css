@@ -1,0 +1,9 @@
+img {
+    width: 800px;
+    height: 500px;
+    float: right;
+}
+p {
+    display: inline;
+    font-size: 30px;
+}

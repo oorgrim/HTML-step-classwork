@@ -1,0 +1,9 @@
+div {
+    background-image: url(https://uschamber.imgix.net/https%3A%2F%2Fwww.uschamber.com%2Fassets%2Fimages%2Fbackground%2Fouter-space.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.5&fp-y=0.5&h=600&q=80&w=1200&s=ebcbff1fd5b1dbb21e490dbccef9ccbb);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+    width: 100vw;
+    height: 100vh;  
+    /* background-position: center; */
+}

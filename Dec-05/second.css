@@ -1,0 +1,18 @@
+
+    ul {
+    list-style-image: url(./images/color.png);
+    margin-left: 70px;
+    background-color: pink;
+
+    
+
+}
+li {
+    font-size: 50px;
+    margin-left: 100px;
+    display: inline-block;
+    text-align: center;
+}
+li:hover  {
+    color: rgb(214, 68, 92);
+}

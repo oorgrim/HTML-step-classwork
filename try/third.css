@@ -1,0 +1,12 @@
+.wrap {
+    width: 800px;
+    height: 400px;
+    padding-top: 100px;
+    background-color: rgb(163, 221, 255);
+}
+.second {
+    width: 400px;
+    height: 250px;
+    background-color: rgb(163, 255, 201);
+    margin: auto; 
+}

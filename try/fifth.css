@@ -1,0 +1,15 @@
+/* 
+img {
+    border:  10px dotted yellow;
+} */ 
+#first  {
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+}
+#second {
+    /* width: auto; */
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(250, 255, 181);
+}

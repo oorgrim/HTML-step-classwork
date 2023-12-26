@@ -1,0 +1,36 @@
+.wrap {
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+    background-color : aqua;
+    position: relative;
+}
+.colorfy {
+    width: 200px;
+    height: 200px;
+}
+
+#a1 {
+    background-color: blueviolet z;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#a2 {
+    background-color: bisque;
+    position: absolute;    
+    top: 0;
+    right: 0;
+}#a3 {
+    background-color: green;
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+}#a4 {
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}

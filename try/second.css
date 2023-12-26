@@ -1,0 +1,47 @@
+/* 
+#d_s_1 {
+    width: 400px;
+    height: 400px;   
+    display: inline; 
+
+}
+#d_s_2 {
+    width: 400px;
+    height: 400px;  
+    display: inline; 
+
+}
+#d_s_3 {
+    width: 400px;
+    height: 400px;  
+    display: inline;  
+}
+.second {
+    margin-top: 40px;
+}
+#demons_souls {
+    width: 400px;
+    height: 400px;  
+    display: inline-block; 
+}
+#elden {
+    width: 400px;
+    height: 400px;  
+}
+#witcher {
+    width: 400px;
+    height: 400px;  
+}
+p {
+    display: inline;
+    float: bottom;
+} */
+img, div{
+    width: 400px;
+    height: 400px;
+    margin-top: 15px;
+    display: inline;
+}
+/* p {
+    margin-top: 25px;
+} */
