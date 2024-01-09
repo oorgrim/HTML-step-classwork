@@ -1,0 +1,25 @@
+body {
+    font-size: 25px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2   fr);
+    grid-template-rows: 70px  max-content;
+    grid-row-gap: 15px;
+    grid-column-gap: 25px;
+} 
+.grid_item {
+    border:  3px solid black;
+}
+
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+.link {
+    width: 200px;
+} 
+/* обычный лендинг минимум 5 блоков (типа менюшка) */

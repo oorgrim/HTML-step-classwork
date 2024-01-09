@@ -1,0 +1,56 @@
+#fon {
+    width: 90vw;  
+    height: AUTO;
+    background-color: aliceblue;
+    /* opacity: 40%; */
+    margin: 0 auto;
+    
+}
+
+.menu_p {
+    display: flex;
+    justify-content: flex-end;
+    /* flex-flow: row wrap;
+    flex-direction: row;     */
+    
+}
+
+
+p {
+    margin-left: 10px;
+}
+
+
+
+
+
+.grid {
+    display: grid;
+    /*grid-template-columns: 300px 300px 350px;*/ /*задать ширину + кол-во блоков*/
+    /* grid-template-rows: 250px 200px 300px; */ 
+    /* grid-template-columns: 2fr 2fr 2fr; */
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: 600px;
+    grid-row-gap: 15px; 
+    grid-column-gap: 25px;
+} 
+.grid_item {
+    border:  3px solid black;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.item5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item6 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.item7 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}

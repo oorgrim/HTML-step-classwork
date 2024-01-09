@@ -1,0 +1,13 @@
+.grid {
+    display: grid;
+    /*grid-template-columns: 300px 300px 350px;*/ /*задать ширину + кол-во блоков*/
+    /* grid-template-rows: 250px 200px 300px; */ 
+    /* grid-template-columns: 2fr 2fr 2fr; */
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: 250px 200px 300px;
+    grid-row-gap: 15px;
+    grid-column-gap: 25px;
+} 
+.grid_item {
+    border:  3px solid black;
+}
