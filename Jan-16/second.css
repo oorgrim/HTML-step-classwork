@@ -1,0 +1,40 @@
+.block {
+    display: flex;
+}
+
+.block1 {
+    width: 50vw;
+    height: 30vh;
+    background-color: pink;
+}
+
+.block2 {
+    width: 30vw;
+    height: 30vh;
+    background-color: rgb(255, 143, 162);
+}
+
+@media screen and (max-width: 768px) {
+    .block1  {
+        font-size: 25px;
+    }   
+    .block2  {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .block  {
+        display: flex;
+        flex-direction: column;
+    }   
+    .block1  {
+        width: 100vw;
+        font-size: 25px;
+        }   
+    .block2  {
+        width: 100vw;
+        font-size: 20px;
+    }
+}
