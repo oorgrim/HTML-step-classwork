@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Kumbh+Sans:wght@300&family=Laila:wght@300;400;700&family=Martian+Mono:wght@200&family=Roboto+Slab&display=swap" rel="stylesheet">     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Croissant+One&family=Kumbh+Sans:wght@300&family=Laila:wght@300;400;700&family=Martian+Mono:wght@200&family=Montserrat:wght@200&family=Nanum+Gothic:wght@700&family=Nunito:wght@300&family=Open+Sans:wght@300&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    
+    <style>
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    font-size: 120%;
+    background: #F8F8FF; 
+  }
+  .fullscreen-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    margin: 0;
+}
+
+.fullscreen-image {
+    position: relative;
+}
+
+.fullscreen-image img {
+    width: 100%;
+    height: auto;
+}
+.w {
+  width: 500px;
+  height: 517px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  padding: 25px 30px;
+  border-radius: 4%;
+    width: 430px;
+  height: 517px;
+  background-color: white;
+  position: absolute;
+  padding: 25px 30px;
+  border-radius: 4%;
+
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(12px);
+  color: #fff;
+  position: absolute;
+  /* left: 25%; */
+  transform: translate(-50%, -50%);;
+  padding: 25px 30px;
+  border-radius: 4%;
+}
+
+h1 {
+    text-align: center; 
+  font-size: 50px;
+  font-family: 'Croissant One', cursive;
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Laila', sans-serif;
+font-family: 'Martian Mono', monospace;
+font-family: 'Roboto Slab', serif;
+  background: linear-gradient(90deg, #0000ff,  #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+label {
+  font-size: 30px;
+  padding-top: 5px;
+  font-family: 'Croissant One', cursive;
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Laila', sans-serif;
+font-family: 'Martian Mono', monospace;
+font-family: 'Roboto Slab', serif;
+background: linear-gradient(90deg,  #ffffff, #ececec);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+}
+input {
+  width: 270px;
+  height: 40px;
+}
+
+        
+.image { 
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+#first {
+    display: flex;
+    position: absolute;
+    left: 45%;
+    top: 13%;
+    /* background-color: #e7e7e7; */
+    /* width: auto; */
+    color: white;
+    font-family: 'AR One Sans', sans-serif;
+font-family: 'Croissant One', cursive;
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Laila', sans-serif;
+font-family: 'Martian Mono', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+
+
+}
+
+#second {
+    display: flex;
+    position: absolute;
+    left: 45%;
+    top: 60%;
+                /* background-color: rgb(218, 215, 255); */
+
+    /* background-color: #e7e7e7; */
+    /* width: 100px; */
+    color: white;
+    font-family: 'AR One Sans', sans-serif;
+font-family: 'Croissant One', cursive;
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Laila', sans-serif;
+font-family: 'Martian Mono', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+
+#third {
+    display: flex;
+    position: absolute;
+    left: 125%;
+    top: 117%;
+    color: white;
+    font-family: 'AR One Sans', sans-serif;
+font-family: 'Croissant One', cursive;
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Laila', sans-serif;
+font-family: 'Martian Mono', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+    /* margin: 5%; */
+    padding: auto;
+    position: absolute;
+    top: 110%;
+    left: 25%;
+}
+p {
+    padding: auto;
+    position: absolute;
+    top: 10%;
+    left: 135%;
+    white-space: nowrap;
+}
+#fon {
+    width: auto;
+    height: auto;
+}
+textarea {
+    background-color: rgb(119, 151, 206);
+    position: absolute; 
+    top: 42%;
+    background-color: white;
+  position: absolute;
+  width: 170px;
+  height: 45px;
+  border-radius: 4%;
+    position: absolute;
+  padding: 15px 17px;
+  border-radius: 4%;
+
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(12px);
+  color: #fff;    
+}
+/* 
+#third_pic {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    left: ;
+} */
+
+#img {
+  /* max-width: 100%;
+  height: 100%; */
+  width: 100%;
+  height: auto;
+}
+
+#name {
+    width: 370px;
+  height: 40px;
+  position: relative;
+  margin-top: 20px;
+  /* top: 50%;
+  left: 50%; */
+  left: 0%;
+  border-radius: 20px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+}
+
+#labelphoto {
+    position: absolute;
+    top: 57%;
+}
+button {
+    position: absolute;
+    top: 90%;
+}
+#file {
+    position: absolute;
+    top: 67%; 
+}
+button {
+    position: absolute;
+    top: 80%;
+        font-family: 'Croissant One', cursive;
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Laila', sans-serif;
+font-family: 'Martian Mono', monospace;
+font-family: 'Roboto Slab', serif;
+  background-color: white;
+  position: absolute;
+
+  padding: 25px 30px;
+  border-radius: 4%;
+    position: absolute;
+  padding: 15px 17px;
+  border-radius: 4%;
+
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(12px);
+  color: #fff;    
+}
+
+.first_W {
+    width: 500px;
+  height: 517px;
+  background-color: white;
+  position: absolute;
+  top: 70%;
+  left: 90%;
+  padding: 25px 30px;
+  border-radius: 4%;
+
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(12px);
+  color: #fff;
+  position: absolute;
+}
+
+
+
+    </style>
+</head>
+
+<body>
+    
+    <img id="img" src="images/fn.jpg">
+    <!-- <h1>Репетиторы по данной дисциплине:</h1> -->
+    <div id="fon"></div>
+    <!-- <img src="images/fon13.jpg"> 
+    <img src="images/foon3.png"> -->
+    <div class="w" id="wrapper">
+        <div id="vvod">
+        <h2>Введите свои данные:</h2>
+        <form id="dataForm">
+            <label for="name">Имя:</label> <br>
+            <input id = "name" type="text" id="name" required><br><br>
+            
+            <label for="message">Сообщение:</label> <br>
+            <textarea id="message" rows="4" required></textarea><br><br>
+
+            <label  id="labelphoto" for="photo">Фотография:</label>
+            <input id = "file" type="file" id="photo" accept="image/*" required>
+            
+            <button type="button" id="addDataButton">Добавить данные</button>
+        </form>     
+    </div>
+</div>
+        <div id="first" class="user-card">
+            <img class="image" src="images/ava10.jpg"> 
+            <div class="user-card-text">
+                <h3>Алана И.</h3>
+                <p>всем добрый день. Меня зовут Алана, <br> я ученица 11 класса гимназии, буду <br>поступать на лингвистику, и очень <br>хотела бы попрактиковать свой <br>разговорный английский преподавая <br>кому нибудь из вас. Буду <br>рада помочь!</p>  
+            </div>
+            <!-- <a href="">Связаться с репетитором</a> -->
+        </div>
+
+        <div class="second_w"></div>
+
+        <div id="second" class="user-card">
+            <img class="image" src="images/ava12.jpg"> 
+            <div class="user-card-text">
+                <h3>Алана И.</h3>
+                <p>всем добрый день. Меня зовут Алана, <br> я ученица 11 класса гимназии, буду <br>поступать на лингвистику, и очень <br>хотела бы попрактиковать свой <br>разговорный английский преподавая <br>кому нибудь из вас. Буду <br>рада помочь!</p>  
+            </div>
+            <!-- <a href="">Связаться с репетитором</a> -->
+        </div>
+
+    </form>
+
+    <script>
+        function addData() {
+            var name = document.getElementById("name").value;
+            var message = document.getElementById("message").value;
+            var photoInput = document.getElementById("file");
+            var photo = photoInput.files[0]; 
+            
+            if (!photo) {
+                alert("Выберите фотографию");
+                return;
+            }
+
+            var newDataDiv = document.createElement("div");
+            newDataDiv.className = "user-card";
+            newDataDiv.innerHTML = `
+                <div id= "third" class="user-card-text">
+                <img class= "image" id = "third_pic" src="${URL.createObjectURL(photo)}"> 
+                    <h3>${name}</h3>
+                    <p>${message}</p>
+                </div>
+            `;
+
+            var container = document.getElementById("wrapper");
+            container.appendChild(newDataDiv);
+
+            document.getElementById("dataForm").reset();
+        }
+
+        document.getElementById("addDataButton").addEventListener("click", addData);
+
+        
+    </script>
+</body>
+</html>

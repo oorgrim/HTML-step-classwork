@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Kumbh+Sans:wght@300&family=Laila:wght@300;400;700&family=Martian+Mono:wght@200&family=Roboto+Slab&display=swap" rel="stylesheet">     
+    <style>
+
+        
+        img { 
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+        }
+        .w {
+            width: 500px;
+            height: 517px;
+            background-color: white;
+            position: absolute;
+            top: 10%;
+            
+        }
+
+        .user-card h3 {
+            margin-left: 20px;
+        }
+
+        .user-card-text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 20px;
+        }
+
+        
+        h1, h3 {  
+            
+            font-family: 'Croissant One', cursive;
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Laila', sans-serif;
+font-family: 'Martian Mono', monospace;
+font-family: 'Roboto Slab', serif;
+background: linear-gradient(90deg,  #7f3296, #5b5bb1);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+white-space: nowrap;
+            background-clip: text;
+color: transparent;
+        }
+        p, h2{
+            white-space: break-word;
+            color: rgb(222, 53, 53);
+            font-size: 25px;
+  padding-top: 5px;
+  font-family: 'Croissant One', cursive;
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Laila', sans-serif;
+font-family: 'Martian Mono', monospace;
+font-family: 'Roboto Slab', serif;
+background: linear-gradient(90deg,  #7f3296, #5b5bb1);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+white-space: nowrap;
+        }
+        h2 {
+            font-size: 29px;
+        }
+
+
+        h1 {
+            font-size: 33px; 
+        }
+
+        #first, #second, #third {
+            width: 500px;
+            height: auto;
+            margin-top: 20px;
+            padding: 15px 40px;
+            border-radius: 10%;
+        }
+
+        #first, #second, #third  {
+            background-color: rgb(218, 215, 255);
+
+        }
+
+
+        .fullscreen-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    margin: 0; 
+}
+
+.fullscreen-image {
+    position: relative;
+}
+
+.fullscreen-image img {
+    width: 100%;
+    height: auto;
+}
+
+h3{
+    text-align: center;
+  text-align: center; 
+  font-size: 25px;
+  font-family: 'Croissant One', cursive;
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Laila', sans-serif;
+font-family: 'Martian Mono', monospace;
+font-family: 'Roboto Slab', serif;
+  background: linear-gradient(90deg, #0000ff,  #ff0000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  align-items: center;
+} 
+
+textarea {
+    width: 200px;
+    height: 100px;
+}
+
+
+label {
+      font-family: 'Croissant One', cursive;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-family: 'Laila', sans-serif;
+  font-family: 'Martian Mono', monospace;
+  font-family: 'Roboto Slab', serif;
+  background: linear-gradient(90deg, #0000ff,  #ff0000);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+}
+
+
+    </style>
+</head>
+<body>
+    <h1>Репетиторы по данной дисциплине:</h1> 
+    <img src="images/foon2.png"> 
+    <div class="w" id="wrapper">
+        <h2>Введите свои данные:</h2>
+        <form id="dataForm">
+            <label for="name">Имя:</label> <br>
+            <input type="text" id="name" required><br><br>
+            
+            <label for="message">Сообщение:</label> <br>
+            <textarea id="message" rows="4" required></textarea><br><br>
+
+            <label for="photo">Фотография:</label>
+            <input type="file" id="photo" accept="image/*" required><br><br>
+            
+            <button type="button" id="addDataButton">Добавить данные</button>
+        </form>
+
+        <div id="first" class="user-card">
+            <img id="img2" src="images/ava17.jpg"> 
+            <div class="user-card-text">
+                <h3>Алана И.</h3>
+                <p>всем добрый день. Меня зовут Алана, <br> я ученица 11 класса гимназии, буду <br>поступать на лингвистику, и очень <br>хотела бы попрактиковать свой <br>разговорный английский преподавая <br>кому нибудь из вас. Буду <br>рада помочь!</p>  
+            </div>
+            <!-- <a href="">Связаться с репетитором</a> -->
+        </div>
+
+        <div id="second" class="user-card">
+            <img id="img2" src="images/ava18.jpg"> 
+            <div class="user-card-text">
+                <h3>Алана И.</h3>
+                <p>всем добрый день. Меня зовут Алана, <br> я ученица 11 класса гимназии, буду <br>поступать на лингвистику, и очень <br>хотела бы попрактиковать свой <br>разговорный английский преподавая <br>кому нибудь из вас. Буду <br>рада помочь!</p>  
+            </div>
+            <!-- <a href="">Связаться с репетитором</a> -->
+        </div>
+    </div>
+    <h2>Введите свои данные:</h2>
+    <form id="dataForm">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" required><br><br>
+        
+        <label for="message">Сообщение:</label>
+        <textarea id="message" rows="4" required></textarea><br><br>
+
+        <label for="photo">Фотография:</label>
+        <input type="file" id="photo" accept="image/*" required><br><br>
+        
+        <button type="button" id="addInfButton">Добавить данные</button>
+    </form>
+
+    <script>
+        function addData() {
+            var name = document.getElementById("name").value;
+            var message = document.getElementById("message").value;
+            var photoInput = document.getElementById("photo");
+            var photo = photoInput.files[0]; 
+            
+            if (!photo) {
+                alert("Выберите фотографию");
+                return;
+            }
+
+            var newDataDiv = document.createElement("div");
+            newDataDiv.className = "user-card";
+            newDataDiv.innerHTML = `
+                <div id= "third" class="user-card-text">
+                <img src="${URL.createObjectURL(photo)}"> <!-- Отображаем выбранное изображение -->
+                    <h3>${name}</h3>
+                    <p>${message}</p>
+                </div>
+                <a href="#" class="contact-link">Связаться с репетитором</a>
+            `;
+
+            var container = document.getElementById("wrapper");
+            container.appendChild(newDataDiv);
+
+            document.getElementById("dataForm").reset();
+        }
+
+        document.getElementById("addDataButton").addEventListener("click", addData); 
+    </script>
+</body>
+</html>
