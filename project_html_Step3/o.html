@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="o.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent container-fluid">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reg.html">registration</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div class="first-page">
+        <img id="img_first_page" src="photo_2024-01-21_17-24-31.jpg" alt="First Page Image">
+        <div class="content">
+            <h2>Welcome to my website!</h2>
+            <p>the first page</p>
+        </div>
+        
+    </div>
+
+    <div class="gid">
+        <a href="">manhwa</a>
+        <a href="">about</a>
+        <a href="">synopsis</a>
+        <a href="">gallery</a>
+    </div>
+    
+    <div class="new-page">
+        <div class="wrap_logo_preview">
+            <div class="logo_new_page"></div>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+        </div>
+            <h3 id="slogan">"The heart of a strong soul carries the bitterness of loss, but every tear is a drop of determination. The life of a strong girl: in every dark chapter there is a bright turn!"</h1>
+        <p></p>
+    </div>
+
+
+    <h2 id="abt_briefly">коротко о манхве</h2>
+    <div class="gallery">
+        <img class="g_div" src="1.jpg" alt="">
+        <img class="g_div" src="2.PNG"></img>
+        <div class="g_div"></div>
+        <div class="g_div"></div>
+        <div class="g_div"></div>
+        <div class="g_div"></div>
+
+    </div>
+
+
+    <div class="third_page">
+    <div class="characters">
+        <button id="prevCharacter" class="character_buttons" onclick="changeCharacter(-1)">Previous</button>
+        <img id="charImg" src="char1.png" alt="">
+        <div id="charInfo" class="char-info">
+            <h1 id="charName" class="char_name">Erica</h1>
+            <p id="charDescription">На фоне разбитого города восстает сила – взгляд сильной девушки, пронзающий тьму утрат. Её глаза несут бескомпромиссную решимость, а волосы, развиваясь под ветром бурь, символизируют неукротимую энергию жизни. Она носит на себе боли и потери, но в каждой ране – след битвы, выигранной силой внутренней души. Стройная фигура девушки подчеркивает её готовность двигаться вперед, несмотря на ужасы прошлого. В её руках символы выживания и силы – лом и перо, напоминая, что даже в разрушении можно обрести новый порыв для жизни. На фоне города восходит рассвет, символизируя надежду и возможность нового начала. Вместе с сильной девушкой в этом комиксе мы узнаем, что даже в самых сложных моментах можно найти силу в себе и двигаться дальше.</p>
+        </div>
+        
+        
+        <button id="nextCharacter" class="character_buttons" onclick="changeCharacter(1)">Next</button>
+    </div>
+    </div>
+    
+    
+    <div class="row">
+    <div class="container">
+		<h1>Часто задаваемые вопросы</h1>
+		<ul>
+			<li class="questions">
+				<div class="question">
+                    Когда выйдет комикс?
+					<span class="icon-main">
+						<i class="fa-solid fa-plus" style="color: #23485b;"></i>
+					</span>
+				</div>
+				<div class="answer hide">
+                    Предположительно, комикс выйдет тогда, когда автор закончит школу.
+                </div>
+			</li>
+			<li class="questions">
+				<div class="question">
+					Почему именно комикс, а не игра?
+					<span class="icon-main">
+						<i class="fa-solid fa-plus" style="color: #8849c8;"></i>
+					</span>
+				</div>
+				<p class="answer hide">
+                    Так как комикс рисуется быстрее, чем игра.
+				</p>
+				
+			</li>
+			<li class="questions">
+				<div class="question">
+					мяу мяу мяу
+				<span class="icon-main">
+						<i class="fa-solid fa-plus" style="color: #8849c8;"></i>
+					</span>
+				</div>
+				<p class="answer hide">
+					мяу мяу
+				</p>
+
+			</li>
+		</ul>
+	</div>
+</div>
+
+    
+    
+
+    <script>
+
+
+
+
+
+        let currentCharacter = 1; 
+        const totalCharacters = 3; 
+    
+        function changeCharacter(direction) {
+            currentCharacter += direction;
+    
+            if (currentCharacter > totalCharacters) {
+                currentCharacter = 1;
+            } else if (currentCharacter < 1) {
+                currentCharacter = totalCharacters;
+            }
+    
+            document.getElementById("charImg").src = `char${currentCharacter}.png`;
+            document.getElementById("charName").innerText = getCharacterName(currentCharacter);
+            document.getElementById("charDescription").innerText = getCharacterDescription(currentCharacter);
+            document.getElementById("charImg").src = getCharacterImage(currentCharacter);
+    
+        }
+    
+        function getCharacterImage(characterIndex) {
+            switch (characterIndex) {
+                case 1:
+                    return "char1.png";
+                case 2:
+                    return "girl.jpg"; 
+                case 3:
+                    return "char3.png"; 
+                default:
+                    return "";
+            }
+        }
+    
+        function getCharacterName(characterIndex) {
+            switch (characterIndex) {
+                case 1:
+                    return "Erica";
+                case 2:
+                    return "Character 2 Name";
+                case 3:
+                    return "Character 3 Name";
+                default:
+                    return "";
+            }
+        }
+    
+        function getCharacterDescription(characterIndex) {
+            switch (characterIndex) {
+                case 1:
+                    return "На фоне разбитого города восстает сила – взгляд сильной девушки, пронзающий тьму утрат. Её глаза несут бескомпромиссную решимость, а волосы, развиваясь под ветром бурь, символизируют неукротимую энергию жизни. Она носит на себе боли и потери, но в каждой ране – след битвы, выигранной силой внутренней души. Стройная фигура девушки подчеркивает её готовность двигаться вперед, несмотря на ужасы прошлого. В её руках символы выживания и силы – лом и перо, напоминая, что даже в разрушении можно обрести новый порыв для жизни. На фоне города восходит рассвет, символизируя надежду и возможность нового начала. Вместе с сильной девушкой в этом комиксе мы узнаем, что даже в самых сложных моментах можно найти силу в себе и двигаться дальше.";
+                case 2:
+                    return "MEOW MEOW MEOW";
+                case 3:
+                    return "Character 3 description.";
+                default:
+                    return "";
+            }
+        }
+
+
+        const faqs = document.querySelectorAll(".questions");
+for (const item of faqs) {
+const qua = item.childNodes; //дочернке уузлы
+const question = qua[1];
+const answer = qua[3];
+const icon = question.querySelector(".icon-main");
+icon.addEventListener("click", function () {
+	answer.classList.toggle("hide");
+	const i = icon.querySelector("i");
+	i.classList.toggle("fa-xmark"); //xmark это я взяла с сайта fontawesome
+});
+}
+
+    var getStartedLink = document.getElementById("sb");
+    var descText = document.getElementById("desc_txt");
+    getStartedLink.addEventListener("click", function() {
+        descText.scrollIntoView({ behavior: "smooth" });
+    });
+    </script>
+            
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
